@@ -7,20 +7,20 @@ credential-bearing file requests. No web widget or separate Swift transport.
 
 ## Install
 
-iOS 18+ and Xcode with Swift 6.2. Add this package and link `RasheedSupport`:
+iOS 18+ and Xcode with Swift 6.2. Add this package and link `Rasheed`:
 
 ```swift
-.package(url: "https://github.com/AlfayezDev/rasheed-ios", exact: "1.0.0-rc.0")
+.package(url: "https://github.com/AlfayezDev/rasheed-ios", exact: "1.0.0-rc.1")
 ```
 
 For rich OS images, link `RasheedNotificationService` only to your notification
 service extension. It depends on a narrow shared parser/image helper, not
-`RasheedSupport`, CoreFFI, Firebase or customer credentials.
+`Rasheed`, CoreFFI, Firebase or customer credentials.
 
 ## Retain one client
 
 ```swift
-import RasheedSupport
+import Rasheed
 
 let client = try RasheedClient(
     workspaceId: "workspace-id",

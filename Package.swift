@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "RasheedSupport",
+    name: "Rasheed",
     platforms: [.iOS(.v18)],
     products: [
-        .library(name: "RasheedSupport", targets: ["RasheedSupport"]),
+        .library(name: "Rasheed", targets: ["Rasheed"]),
         .library(name: "RasheedCore", targets: ["RasheedCore"]),
         .library(name: "RasheedNotificationService", targets: ["RasheedNotificationService"]),
     ],
     targets: [
         .binaryTarget(
             name: "RasheedCoreFFI",
-            url: "https://github.com/AlfayezDev/rasheed-ios/releases/download/1.0.0-rc.0/RasheedCoreFFI.xcframework.zip",
+            url: "https://github.com/AlfayezDev/rasheed-ios/releases/download/1.0.0-rc.1/RasheedCoreFFI.xcframework.zip",
             checksum: "cedb90174fc8f055f1031791897e7f8f4205d080a5e2fe5f3ca085f51942fa4b"
         ),
         .target(
@@ -27,7 +27,7 @@ let package = Package(
             ]
         ),
         .target(
-            name: "RasheedSupport",
+            name: "Rasheed",
             dependencies: ["RasheedCore", "RasheedNotificationSupport"],
             resources: [.copy("Fonts"), .copy("Sounds")],
             swiftSettings: [.swiftLanguageMode(.v5)]
