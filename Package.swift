@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "RasheedCoreFFI",
-            url: "https://github.com/AlfayezDev/rasheed-ios/releases/download/1.0.0-rc.1/RasheedCoreFFI.xcframework.zip",
-            checksum: "cedb90174fc8f055f1031791897e7f8f4205d080a5e2fe5f3ca085f51942fa4b"
+            url: "https://github.com/AlfayezDev/rasheed-ios/releases/download/1.0.0-rc.2/RasheedCoreFFI.xcframework.zip",
+            checksum: "52846333efa7335d06f3cac75cea5cf2ae842ae7002b37cec800d198fcd6516e"
         ),
         .target(
             name: "RasheedCore",

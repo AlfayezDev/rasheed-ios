@@ -10,7 +10,7 @@ credential-bearing file requests. No web widget or separate Swift transport.
 iOS 18+ and Xcode with Swift 6.2. Add this package and link `Rasheed`:
 
 ```swift
-.package(url: "https://github.com/AlfayezDev/rasheed-ios", exact: "1.0.0-rc.1")
+.package(url: "https://github.com/AlfayezDev/rasheed-ios", exact: "1.0.0-rc.2")
 ```
 
 For rich OS images, link `RasheedNotificationService` only to your notification
